@@ -1,24 +1,6 @@
-# PPM_LLM_Outcome
+# Hospital Event Narrative Generator and Classifier
 
 This repository contains code and data for generating patient narratives from event logs and predicting patient outcomes using Large Language Models (LLMs).
-
-## Project Structure
-
-```
-PPM_LLM_Outcome/
-├── event_log/
-│   └── orbassano.csv                # Raw event log data
-├── output/
-│   ├── orbassano_narratives.json    # Generated narratives (JSON)
-│   ├── orbassano_narratives.csv     # Generated narratives (CSV)
-│   ├── orbassano_predictions.json   # LLM predictions (JSON)
-│   ├── llm_metrics.csv              # Evaluation metrics
-│   └── orbassano_clean.csv          # Cleaned event log
-├── 01_preprocessing.py              # Data preprocessing and narrative generation
-├── 02_llm_prediction.py             # LLM-based outcome prediction and evaluation
-├── local_functions.py               # Utility functions (e.g., ensure_dir_with_gitkeep)
-└── README.md                        # Project documentation
-```
 
 ## Requirements
 
