@@ -85,6 +85,5 @@ python 02_llm_prediction.py
 - Logging is enabled for errors and warnings.
 - Narrative generation is parallelised for efficiency.
 
-## License
-
-This project is for academic use only.
+---
+For questions or issues, please contact the project author roberto.nai@unito.it.
