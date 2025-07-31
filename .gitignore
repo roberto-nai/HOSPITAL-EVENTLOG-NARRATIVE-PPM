@@ -166,11 +166,13 @@ _todo/
 **/_old*/
 
 # Ignore every file in the directory
+event_log/*
 event_log_narratives/*
 output_classifiers/*
 output_classifiers_ht/*
 
 # But do not ignore the directory itself
+!event_log/.gitkeep
 !event_log_narratives/.gitkeep
 !output_classifiers/.gitkeep
 !output_classifiers_ht/.gitkeep
